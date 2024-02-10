@@ -60,7 +60,11 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
         if published_time > last_send_time:
             last_send_time = published_time
             for chat_id in group_chat_ids:
-                await context.bot.send_message(chat_id=chat_id, text=entry['summary'] + "\n\n" + entry['link'])
+                try:
+                    await context.bot.send_message(chat_id=chat_id, text=entry['summary'] + "\n\n" + entry['link'])
+                except Exception as e:
+                    logging.error(f"Error while sending message to chat_id: {chat_id}, error: {e}")
+                    group_chat_ids.remove(chat_id)
         else:
             break
 
@@ -76,6 +80,7 @@ if __name__ == '__main__':
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("haberver", register))
+    app.add_error_handler(lambda _, update, context: logging.error(f"Update {update} caused error {context.error}"))
     app.job_queue.run_repeating(send_news, interval=60, first=0)
 
     app.run_polling(allowed_updates=Update.ALL_TYPES)
