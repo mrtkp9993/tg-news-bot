@@ -1,0 +1,3 @@
+feedparser==6.0.11
+python_telegram_bot[job-queue]==20.6
+telegram==0.0.1
