@@ -64,7 +64,6 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
                     await context.bot.send_message(chat_id=chat_id, text=entry['summary'] + "\n\n" + entry['link'])
                 except Exception as e:
                     logging.error(f"Error while sending message to chat_id: {chat_id}, error: {e}")
-                    group_chat_ids.remove(chat_id)
                     continue
         else:
             break
@@ -77,7 +76,7 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
         logging.info(f"State saved to file: {state}")
 
 if __name__ == '__main__':
-    app = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
+    app = ApplicationBuilder().token(os.environ["NEWS_BOT_TOKEN"]).build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("haberver", register))
