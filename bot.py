@@ -65,6 +65,7 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
                 except Exception as e:
                     logging.error(f"Error while sending message to chat_id: {chat_id}, error: {e}")
                     group_chat_ids.remove(chat_id)
+                    continue
         else:
             break
 
