@@ -76,11 +76,7 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
             for chat_id in group_chat_ids:
                 try:
                     msg = await context.bot.send_message(chat_id=chat_id, text=entry['summary'] + "\n\n" + entry['link'])
-                    try:
-                        await context.bot.pin_chat_message(chat_id=chat_id, message_id=msg.message_id)
-                    except Exception as e:
-                        logging.error(f"Error while pinning message to chat_id: {chat_id}, error: {e}")
-                        continue
+                    await context.bot.pin_chat_message(chat_id=chat_id, message_id=msg.message_id)
                 except Exception as e:
                     logging.error(f"Error while sending message to chat_id: {chat_id}, error: {e}")
                     continue
