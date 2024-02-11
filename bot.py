@@ -34,13 +34,24 @@ logging.info(f"Group chat IDs: {group_chat_ids}")
 logging.info(f"Last send time: {last_send_time}")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text(f'Ben Haberci. Güncel haberleri almak için grubunuza ekleyin ve /haberver komutunu kullanın.')
+    await update.message.reply_text(f'Ben Haberci. Güncel haberleri almak için /haberver komutunu kullanın.')
 
 async def register(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     group_chat_ids.add(update.message.chat.id)
-    await update.message.reply_text(f'Grubunuz başarıyla kaydedildi.')
+    await update.message.reply_text(f'Başarıyla kaydedildi. Yeni haberler geldikçe otomatik olarak gönderilecektir.')
     await send_news(context)
     logging.info(f"update.message.chat.id: {update.message.chat.id} added to group_chat_ids.")
+    logging.info(f"{update.message.chat.title}")
+    # save state to file
+    with open('state.json', 'w') as file:
+        state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S')}
+        json.dump(state, file)
+        logging.info(f"State saved to file: {state}")
+
+async def unregister(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    group_chat_ids.remove(update.message.chat.id)
+    await update.message.reply_text(f'Başarıyla silindi.')
+    logging.info(f"update.message.chat.id: {update.message.chat.id} removed from group_chat_ids.")
     logging.info(f"{update.message.chat.title}")
     # save state to file
     with open('state.json', 'w') as file:
@@ -61,7 +72,12 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
             last_send_time = published_time
             for chat_id in group_chat_ids:
                 try:
-                    await context.bot.send_message(chat_id=chat_id, text=entry['summary'] + "\n\n" + entry['link'])
+                    msg = await context.bot.send_message(chat_id=chat_id, text=entry['summary'] + "\n\n" + entry['link'])
+                    try:
+                        await context.bot.pin_chat_message(chat_id=chat_id, message_id=msg.message_id)
+                    except Exception as e:
+                        logging.error(f"Error while pinning message to chat_id: {chat_id}, error: {e}")
+                        continue
                 except Exception as e:
                     logging.error(f"Error while sending message to chat_id: {chat_id}, error: {e}")
                     continue
@@ -85,6 +101,8 @@ if __name__ == '__main__':
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("haberver", register))
+    app.add_handler(CommandHandler("haberverme", unregister))
+
     app.add_error_handler(error_handler)
     app.job_queue.run_repeating(send_news, interval=60, first=0)
 
