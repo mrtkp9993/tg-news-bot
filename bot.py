@@ -75,12 +75,18 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
         json.dump(state, file)
         logging.info(f"State saved to file: {state}")
 
+
+async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
+    logging.error(f"Update {update} caused error {context.error}")
+    await context.bot.send_message(chat_id=os.environ["DEV_CHAT_ID"], text=context.error)
+
 if __name__ == '__main__':
     app = ApplicationBuilder().token(os.environ["NEWS_BOT_TOKEN"]).build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("haberver", register))
-    app.add_error_handler(lambda _, update, context: logging.error(f"Update {update} caused error {context.error}"))
+    # app.add_error_handler(lambda _, update, context: logging.error(f"Update {update} caused error {context.error}"))
+    app.add_error_handler
     app.job_queue.run_repeating(send_news, interval=60, first=0)
 
     app.run_polling(allowed_updates=Update.ALL_TYPES)
