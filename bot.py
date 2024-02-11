@@ -92,6 +92,7 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
         logging.info(f"State saved to file: {state}")
 
 async def error_raise(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
+    logging.info(update.effective_chat.id)
     await context.bot.wrong_method_name()
 
 async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
