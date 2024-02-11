@@ -94,8 +94,8 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
         json.dump(state, file)
         logging.info(f"State saved to file: {state}")
 
-async def error_raise(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await context.bot.wrong_method_name()
+# async def error_raise(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
+#     await context.bot.wrong_method_name()
 
 async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
     logging.error("Exception while handling an update:", exc_info=context.error)
@@ -128,7 +128,7 @@ if __name__ == '__main__':
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("haberver", register))
     app.add_handler(CommandHandler("haberverme", unregister))
-    app.add_handler(CommandHandler("error", error_raise))
+    # app.add_handler(CommandHandler("error", error_raise))
 
     app.add_error_handler(error_handler)
     app.job_queue.run_repeating(send_news, interval=60, first=0)
