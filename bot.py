@@ -85,8 +85,7 @@ if __name__ == '__main__':
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("haberver", register))
-    # app.add_error_handler(lambda _, update, context: logging.error(f"Update {update} caused error {context.error}"))
-    app.add_error_handler
+    app.add_error_handler(error_handler)
     app.job_queue.run_repeating(send_news, interval=60, first=0)
 
     app.run_polling(allowed_updates=Update.ALL_TYPES)
