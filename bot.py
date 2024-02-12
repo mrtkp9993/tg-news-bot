@@ -49,7 +49,7 @@ async def register(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     logging.info(f"{update.message.chat.title}")
     # save state to file
     with open('state.json', 'w') as file:
-        state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S')}
+        state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S'), 'last_send_msg_id': json.dumps(last_send_msg_id)}
         json.dump(state, file)
         logging.info(f"State saved to file: {state}")
 
@@ -60,7 +60,7 @@ async def unregister(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
     logging.info(f"{update.message.chat.title}")
     # save state to file
     with open('state.json', 'w') as file:
-        state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S')}
+        state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S'), 'last_send_msg_id': json.dumps(last_send_msg_id)}
         json.dump(state, file)
         logging.info(f"State saved to file: {state}")
 
@@ -92,7 +92,7 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
     logging.info(f"Last send time: {last_send_time}")
     # save state to file
     with open('state.json', 'w') as file:
-        state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S')}
+        state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S'), 'last_send_msg_id': json.dumps(last_send_msg_id)}
         json.dump(state, file)
         logging.info(f"State saved to file: {state}")
 
