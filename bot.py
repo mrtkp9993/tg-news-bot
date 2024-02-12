@@ -21,14 +21,16 @@ logging.basicConfig(
 FEED_URL = 'https://www.aa.com.tr/tr/rss/default?cat=guncel'
 group_chat_ids = set()
 last_send_time = datetime.now()
+last_send_msg_id = dict()
 if os.path.exists('state.json'):
     with open('state.json', 'r') as file:
         state = json.load(file)
         group_chat_ids = set(state['group_chat_ids'])
         last_send_time =  datetime.strptime(state['last_send_time'], '%Y-%m-%d %H:%M:%S')
+        last_send_msg_id = json.loads(state['last_send_msg_id'])
 else:
     with open('state.json', 'w') as file:
-        state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S')}
+        state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S'), 'last_send_msg_id': json.dumps(last_send_msg_id)}
         json.dump(state, file)
 
 logging.info("Bot started...")
@@ -76,9 +78,11 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
             for chat_id in group_chat_ids:
                 try:
                     msg = await context.bot.send_message(chat_id=chat_id, text=entry['summary'] + "\n\n" + entry['link'])
-                    unpin_msg = await context.bot.unpin_chat_message(chat_id=chat_id)
-                    if unpin_msg:
-                        await context.bot.pin_chat_message(chat_id=chat_id, message_id=msg.message_id, disable_notification=False)
+                    if last_send_msg_id[chat_id]:
+                        unpin_msg = await context.bot.unpin_chat_message(chat_id=chat_id, message_id=last_send_msg_id[chat_id])
+                        if unpin_msg:
+                            last_send_msg_id[chat_id] = msg.message_id
+                    await context.bot.pin_chat_message(chat_id=chat_id, message_id=msg.message_id, disable_notification=False)
                 except Exception as e:
                     logging.error(f"Error while sending message to chat_id: {chat_id}, error: {e}")
                     continue
