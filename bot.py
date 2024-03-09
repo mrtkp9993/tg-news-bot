@@ -90,6 +90,11 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
         json.dump(state, file)
         logging.info(f"State saved to file: {state}")
 
+async def feedback_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
+    await context.bot.send_message(
+        chat_id=os.environ['DEV_CHAT_ID'], text="Feedback received: " + update.message.text
+    )
+
 # async def error_raise(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
 #     await context.bot.wrong_method_name()
 
@@ -124,6 +129,7 @@ if __name__ == '__main__':
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("haberver", register))
     app.add_handler(CommandHandler("haberverme", unregister))
+    app.add_handler(CommandHandler("feedback", feedback_handler))
     # app.add_handler(CommandHandler("error", error_raise))
 
     app.add_error_handler(error_handler)
