@@ -93,7 +93,7 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
 async def feedback_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
     user_info = ""
     try:
-        user_info = f"User: {update.message.from_user.username}, Chat ID: {update.message.chat.id}"
+        user_info = f"User: {update.message.from_user.username}, {update.message.from_user.first_name}, {update.message.from_user.last_name}, Chat ID: {update.message.chat.id}"
     except Exception as e:
         user_info = "User info not found."
     await context.bot.send_message(
