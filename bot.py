@@ -91,8 +91,13 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
         logging.info(f"State saved to file: {state}")
 
 async def feedback_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
+    user_info = ""
+    try:
+        user_info = f"User: {update.message.from_user.username}, Chat ID: {update.message.chat.id}"
+    except Exception as e:
+        user_info = "User info not found."
     await context.bot.send_message(
-        chat_id=os.environ['DEV_CHAT_ID'], text="Feedback received: " + update.message.text
+        chat_id=os.environ['DEV_CHAT_ID'], text="Feedback received: " + update.message.text + "\n\n" + user_info
     )
 
 # async def error_raise(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
