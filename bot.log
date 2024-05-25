@@ -1,0 +1,768 @@
+2024-05-25 17:31:21,642 - root - INFO - Bot started...
+2024-05-25 17:31:21,643 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:31:21,643 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:31:21,644 - root - INFO - Last send time: 2024-05-25 14:30:00
+2024-05-25 17:31:21,669 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:31:22,007 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:31:22,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:31:22,099 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:31:22,100 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:31:22,100 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:31:32,363 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:31:42,467 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:31:52,579 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:32:01,372 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:32:01,373 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2024-05-25 17:32:01,374 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-25 17:32:01,374 - telegram.ext.Application - INFO - Application.stop() complete
+2024-05-25 17:32:03,287 - root - INFO - Bot started...
+2024-05-25 17:32:03,287 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:32:03,288 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:32:03,288 - root - INFO - Last send time: 2024-05-25 14:30:00
+2024-05-25 17:32:03,306 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:32:03,586 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:32:03,673 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:32:03,675 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:32:03,675 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:32:03,675 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:32:13,938 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:32:24,037 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:32:34,125 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:32:44,212 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:32:45,287 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:32:55,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:32:56,903 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:33:00,495 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:33:03,034 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:33:09,532 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:33:11,004 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:33:15,242 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:33:17,647 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:33:24,847 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:33:27,754 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:33:28,059 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:33:38,159 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:33:44,606 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:33:53,654 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:34:00,607 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:34:10,687 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:34:16,668 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:34:26,775 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:34:36,859 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:34:46,971 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:34:57,066 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:35:06,082 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:35:16,171 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:35:26,330 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:35:36,419 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:35:46,509 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:35:56,598 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:36:38,800 - root - INFO - Bot started...
+2024-05-25 17:36:38,801 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:36:38,801 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:36:38,801 - root - INFO - Last send time: 2024-05-25 10:00:00
+2024-05-25 17:36:38,821 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:36:39,128 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:36:39,234 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:36:39,235 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:36:39,236 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:36:39,236 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:36:49,531 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:36:59,619 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:09,710 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:09,940 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:20,035 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:24,187 - root - INFO - Bot started...
+2024-05-25 17:37:24,187 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:37:24,188 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:37:24,188 - root - INFO - Last send time: 2024-05-25 10:00:00
+2024-05-25 17:37:24,207 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:37:24,488 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:37:24,584 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:37:24,585 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:37:24,585 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:37:24,585 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:37:27,930 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:34,215 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:37:44 UTC)" (scheduled at 2024-05-25 14:37:34.206248+00:00)
+2024-05-25 17:37:34,831 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:34,833 - root - ERROR - Error while sending message to chat_id: 5764872322, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:34,972 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:35,140 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:35,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:35,341 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:35,533 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:35,537 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:35,690 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:35,691 - root - ERROR - Error while sending message to chat_id: 7140956806, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:35,900 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:36,156 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:36,158 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:36,267 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:36,268 - root - ERROR - Error while sending message to chat_id: 6383729426, error: Forbidden: user is deactivated
+2024-05-25 17:37:36,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:36,428 - root - ERROR - Error while sending message to chat_id: 6448386224, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:36,602 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:36,697 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:37:36,698 - root - ERROR - Error while sending message to chat_id: -4148609082, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:37:36,943 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:37,028 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:37:37,029 - root - ERROR - Error while sending message to chat_id: -1002040565556, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:37:37,175 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:37,176 - root - ERROR - Error while sending message to chat_id: 800160972, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:37,280 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:37,282 - root - ERROR - Error while sending message to chat_id: 821084369, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:37,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:37,383 - root - ERROR - Error while sending message to chat_id: 1060173779, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:37,493 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:37,494 - root - ERROR - Error while sending message to chat_id: 863002330, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:37,653 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:37,897 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:37,900 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:38,029 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:38,030 - root - ERROR - Error while sending message to chat_id: -1002041421855, error: Forbidden: bot was kicked from the supergroup chat
+2024-05-25 17:37:38,231 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:38,231 - root - ERROR - Error while sending message to chat_id: 5866477924, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:38,353 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:38,353 - root - ERROR - Error while sending message to chat_id: 1711093612, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:38,486 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:38,621 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:38,622 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:38,737 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:38,738 - root - ERROR - Error while sending message to chat_id: 6059396596, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:38,847 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:38,849 - root - ERROR - Error while sending message to chat_id: 1614419706, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:38,966 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:38,967 - root - ERROR - Error while sending message to chat_id: 333267965, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:39,057 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:39,058 - root - ERROR - Error while sending message to chat_id: -1002093202305, error: Forbidden: bot is not a member of the supergroup chat
+2024-05-25 17:37:39,059 - root - INFO - Last send time: 2024-05-25 17:21:59
+2024-05-25 17:37:39,059 - root - INFO - State saved to file: {'group_chat_ids': [5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305], 'last_send_time': '2024-05-25 17:21:59'}
+2024-05-25 17:37:39,060 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:37:44 UTC)" executed successfully
+2024-05-25 17:37:39,411 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:44,220 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:37:54 UTC)" (scheduled at 2024-05-25 14:37:44.206248+00:00)
+2024-05-25 17:37:44,838 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:44,839 - root - ERROR - Error while sending message to chat_id: 5764872322, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:44,982 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:45,099 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:45,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:45,236 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:45,365 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:45,369 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:45,472 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:45,473 - root - ERROR - Error while sending message to chat_id: 7140956806, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:45,682 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:45,840 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:45,841 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:45,938 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:45,941 - root - ERROR - Error while sending message to chat_id: 6383729426, error: Forbidden: user is deactivated
+2024-05-25 17:37:46,057 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:46,059 - root - ERROR - Error while sending message to chat_id: 6448386224, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:46,185 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:46,267 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:37:46,268 - root - ERROR - Error while sending message to chat_id: -4148609082, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:37:46,521 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:46,638 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:37:46,639 - root - ERROR - Error while sending message to chat_id: -1002040565556, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:37:46,725 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:46,726 - root - ERROR - Error while sending message to chat_id: 800160972, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:46,903 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:46,904 - root - ERROR - Error while sending message to chat_id: 821084369, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:47,062 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:47,063 - root - ERROR - Error while sending message to chat_id: 1060173779, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:47,208 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:47,209 - root - ERROR - Error while sending message to chat_id: 863002330, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:47,407 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:47,568 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:47,572 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:47,664 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:47,664 - root - ERROR - Error while sending message to chat_id: -1002041421855, error: Forbidden: bot was kicked from the supergroup chat
+2024-05-25 17:37:47,774 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:47,775 - root - ERROR - Error while sending message to chat_id: 5866477924, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:47,892 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:47,893 - root - ERROR - Error while sending message to chat_id: 1711093612, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:48,025 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:48,161 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:48,161 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:48,266 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:48,267 - root - ERROR - Error while sending message to chat_id: 6059396596, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:48,403 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:48,404 - root - ERROR - Error while sending message to chat_id: 1614419706, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:48,582 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:48,583 - root - ERROR - Error while sending message to chat_id: 333267965, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:48,671 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:48,671 - root - ERROR - Error while sending message to chat_id: -1002093202305, error: Forbidden: bot is not a member of the supergroup chat
+2024-05-25 17:37:48,672 - root - INFO - Last send time: 2024-05-25 17:21:59
+2024-05-25 17:37:48,672 - root - INFO - State saved to file: {'group_chat_ids': [5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305], 'last_send_time': '2024-05-25 17:21:59'}
+2024-05-25 17:37:48,673 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:37:54 UTC)" executed successfully
+2024-05-25 17:37:54,219 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:38:04 UTC)" (scheduled at 2024-05-25 14:37:54.206248+00:00)
+2024-05-25 17:37:54,835 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:54,836 - root - ERROR - Error while sending message to chat_id: 5764872322, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:54,960 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:55,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:55,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:55,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:55,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:55,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:55,434 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:55,436 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:55,437 - root - ERROR - Error while sending message to chat_id: 7140956806, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:55,572 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:55,784 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:55,786 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:56,029 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:56,030 - root - ERROR - Error while sending message to chat_id: 6383729426, error: Forbidden: user is deactivated
+2024-05-25 17:37:56,142 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:56,143 - root - ERROR - Error while sending message to chat_id: 6448386224, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:56,308 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:56,392 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:37:56,393 - root - ERROR - Error while sending message to chat_id: -4148609082, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:37:56,632 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:56,716 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:37:56,717 - root - ERROR - Error while sending message to chat_id: -1002040565556, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:37:56,811 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:56,812 - root - ERROR - Error while sending message to chat_id: 800160972, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:56,912 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:56,913 - root - ERROR - Error while sending message to chat_id: 821084369, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:57,019 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:57,020 - root - ERROR - Error while sending message to chat_id: 1060173779, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:57,119 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:57,120 - root - ERROR - Error while sending message to chat_id: 863002330, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:57,268 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:57,475 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:57,477 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:57,565 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:57,566 - root - ERROR - Error while sending message to chat_id: -1002041421855, error: Forbidden: bot was kicked from the supergroup chat
+2024-05-25 17:37:57,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:57,718 - root - ERROR - Error while sending message to chat_id: 5866477924, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:57,887 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:57,888 - root - ERROR - Error while sending message to chat_id: 1711093612, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:58,145 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:58,343 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:37:58,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:37:58,478 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:58,479 - root - ERROR - Error while sending message to chat_id: 6059396596, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:58,581 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:58,582 - root - ERROR - Error while sending message to chat_id: 1614419706, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:58,690 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:58,691 - root - ERROR - Error while sending message to chat_id: 333267965, error: Forbidden: bot was blocked by the user
+2024-05-25 17:37:58,811 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:37:58,811 - root - ERROR - Error while sending message to chat_id: -1002093202305, error: Forbidden: bot is not a member of the supergroup chat
+2024-05-25 17:37:58,812 - root - INFO - Last send time: 2024-05-25 17:21:59
+2024-05-25 17:37:58,812 - root - INFO - State saved to file: {'group_chat_ids': [5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305], 'last_send_time': '2024-05-25 17:21:59'}
+2024-05-25 17:37:58,813 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:38:04 UTC)" executed successfully
+2024-05-25 17:39:07,169 - root - INFO - Bot started...
+2024-05-25 17:39:07,170 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:39:07,170 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:39:07,170 - root - INFO - Last send time: 2024-05-25 17:21:59
+2024-05-25 17:39:07,190 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:39:07,496 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:39:07,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:39:07,618 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:39:07,619 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:39:07,619 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:39:07,890 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:39:17,203 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:39:27 UTC)" (scheduled at 2024-05-25 14:39:17.189425+00:00)
+2024-05-25 17:39:17,518 - root - INFO - No new news found.
+2024-05-25 17:39:17,519 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:39:27 UTC)" executed successfully
+2024-05-25 17:39:17,975 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:39:23,437 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:39:23,440 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2024-05-25 17:39:23,441 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-25 17:39:23,442 - telegram.ext.Application - INFO - Application.stop() complete
+2024-05-25 17:40:07,079 - root - INFO - Bot started...
+2024-05-25 17:40:07,079 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:40:07,080 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:40:07,080 - root - INFO - Last send time: 2024-05-25 00:00:00
+2024-05-25 17:40:07,100 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:40:07,559 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:40:07,653 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:40:07,655 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:40:07,655 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:40:07,656 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:40:17,105 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:40:27 UTC)" (scheduled at 2024-05-25 14:40:17.099464+00:00)
+2024-05-25 17:40:17,813 - root - INFO - Preparing to send news...
+2024-05-25 17:40:17,815 - root - INFO - Sending news...
+2024-05-25 17:40:17,912 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:40:18,133 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:18,134 - root - ERROR - Error while sending message to chat_id: 5764872322, error: Forbidden: bot was blocked by the user
+2024-05-25 17:40:18,282 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:40:18,423 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:40:18,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:40:18,622 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:40:18,833 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:40:18,836 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:40:18,994 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:18,994 - root - ERROR - Error while sending message to chat_id: 7140956806, error: Forbidden: bot was blocked by the user
+2024-05-25 17:40:19,251 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:40:19,414 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:40:19,416 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:40:19,502 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:19,504 - root - ERROR - Error while sending message to chat_id: 6383729426, error: Forbidden: user is deactivated
+2024-05-25 17:40:19,691 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:19,692 - root - ERROR - Error while sending message to chat_id: 6448386224, error: Forbidden: bot was blocked by the user
+2024-05-25 17:40:19,888 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:40:19,973 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:40:19,974 - root - ERROR - Error while sending message to chat_id: -4148609082, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:40:20,198 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:40:20,288 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:40:20,289 - root - ERROR - Error while sending message to chat_id: -1002040565556, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:40:20,393 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:20,395 - root - ERROR - Error while sending message to chat_id: 800160972, error: Forbidden: bot was blocked by the user
+2024-05-25 17:40:20,510 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:20,510 - root - ERROR - Error while sending message to chat_id: 821084369, error: Forbidden: bot was blocked by the user
+2024-05-25 17:40:20,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:20,637 - root - ERROR - Error while sending message to chat_id: 1060173779, error: Forbidden: bot was blocked by the user
+2024-05-25 17:40:20,754 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:20,756 - root - ERROR - Error while sending message to chat_id: 863002330, error: Forbidden: bot was blocked by the user
+2024-05-25 17:40:20,981 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:40:21,128 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:40:21,129 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:40:21,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:21,224 - root - ERROR - Error while sending message to chat_id: -1002041421855, error: Forbidden: bot was kicked from the supergroup chat
+2024-05-25 17:40:21,347 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:21,348 - root - ERROR - Error while sending message to chat_id: 5866477924, error: Forbidden: bot was blocked by the user
+2024-05-25 17:40:21,483 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:21,484 - root - ERROR - Error while sending message to chat_id: 1711093612, error: Forbidden: bot was blocked by the user
+2024-05-25 17:40:21,685 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:40:21,935 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:40:21,936 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:40:22,094 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:22,095 - root - ERROR - Error while sending message to chat_id: 6059396596, error: Forbidden: bot was blocked by the user
+2024-05-25 17:40:22,250 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:22,251 - root - ERROR - Error while sending message to chat_id: 1614419706, error: Forbidden: bot was blocked by the user
+2024-05-25 17:40:22,405 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:22,405 - root - ERROR - Error while sending message to chat_id: 333267965, error: Forbidden: bot was blocked by the user
+2024-05-25 17:40:22,494 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:40:22,495 - root - ERROR - Error while sending message to chat_id: -1002093202305, error: Forbidden: bot is not a member of the supergroup chat
+2024-05-25 17:40:22,495 - root - INFO - Last send time: 2024-05-25 17:21:59
+2024-05-25 17:40:22,496 - root - INFO - State saved to file: {'group_chat_ids': [5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305], 'last_send_time': '2024-05-25 17:21:59'}
+2024-05-25 17:40:22,496 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:40:27 UTC)" executed successfully
+2024-05-25 17:40:27,117 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:40:37 UTC)" (scheduled at 2024-05-25 14:40:27.099464+00:00)
+2024-05-25 17:40:27,381 - root - INFO - Preparing to send news...
+2024-05-25 17:40:27,381 - root - INFO - No new news found.
+2024-05-25 17:40:27,382 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:40:37 UTC)" executed successfully
+2024-05-25 17:40:32,034 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:40:37,115 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:40:47 UTC)" (scheduled at 2024-05-25 14:40:37.099464+00:00)
+2024-05-25 17:40:37,415 - root - INFO - Preparing to send news...
+2024-05-25 17:40:37,416 - root - INFO - No new news found.
+2024-05-25 17:40:37,416 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:40:47 UTC)" executed successfully
+2024-05-25 17:40:42,132 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:46:25,525 - root - INFO - Bot started...
+2024-05-25 17:46:25,526 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:46:25,526 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:46:25,527 - root - INFO - Last send time: 2024-05-25 17:21:59
+2024-05-25 17:46:25,545 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:46:25,876 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:46:25,978 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:46:25,981 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:46:25,982 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:46:25,982 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:46:26,267 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:46:41,522 - root - INFO - Bot started...
+2024-05-25 17:46:41,522 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:46:41,522 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:46:41,523 - root - INFO - Last send time: 2024-05-25 00:21:59
+2024-05-25 17:46:41,541 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:46:41,859 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:46:41,942 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:46:41,945 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:46:41,945 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:46:41,946 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:46:42,214 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:46:51,543 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:47:01 UTC)" (scheduled at 2024-05-25 14:46:51.540280+00:00)
+2024-05-25 17:46:51,848 - root - INFO - Preparing to send news...
+2024-05-25 17:46:51,849 - root - INFO - New news found: Milli tenisçi Zeynep Sönmez'in Roland Garros'taki rakibi ABD'li Emma Navarro oldu
+2024-05-25 17:46:51,850 - root - INFO - Sending news...
+2024-05-25 17:46:52,145 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:52,146 - root - ERROR - Error while sending message to chat_id: 5764872322, error: Forbidden: bot was blocked by the user
+2024-05-25 17:46:52,299 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:46:52,309 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:46:52,422 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:46:52,424 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:46:52,659 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:46:52,782 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:46:52,793 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:46:53,032 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:53,034 - root - ERROR - Error while sending message to chat_id: 7140956806, error: Forbidden: bot was blocked by the user
+2024-05-25 17:46:53,158 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:46:53,292 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:46:53,294 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:46:53,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:53,380 - root - ERROR - Error while sending message to chat_id: 6383729426, error: Forbidden: user is deactivated
+2024-05-25 17:46:53,478 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:53,480 - root - ERROR - Error while sending message to chat_id: 6448386224, error: Forbidden: bot was blocked by the user
+2024-05-25 17:46:53,627 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:46:53,712 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:46:53,713 - root - ERROR - Error while sending message to chat_id: -4148609082, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:46:53,951 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:46:54,036 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:46:54,037 - root - ERROR - Error while sending message to chat_id: -1002040565556, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:46:54,135 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:54,136 - root - ERROR - Error while sending message to chat_id: 800160972, error: Forbidden: bot was blocked by the user
+2024-05-25 17:46:54,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:54,255 - root - ERROR - Error while sending message to chat_id: 821084369, error: Forbidden: bot was blocked by the user
+2024-05-25 17:46:54,367 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:54,368 - root - ERROR - Error while sending message to chat_id: 1060173779, error: Forbidden: bot was blocked by the user
+2024-05-25 17:46:54,474 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:54,475 - root - ERROR - Error while sending message to chat_id: 863002330, error: Forbidden: bot was blocked by the user
+2024-05-25 17:46:54,617 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:46:54,739 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:46:54,742 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:46:54,831 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:54,833 - root - ERROR - Error while sending message to chat_id: -1002041421855, error: Forbidden: bot was kicked from the supergroup chat
+2024-05-25 17:46:54,940 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:54,941 - root - ERROR - Error while sending message to chat_id: 5866477924, error: Forbidden: bot was blocked by the user
+2024-05-25 17:46:55,055 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:55,056 - root - ERROR - Error while sending message to chat_id: 1711093612, error: Forbidden: bot was blocked by the user
+2024-05-25 17:46:55,210 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:46:55,327 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:46:55,329 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:46:55,438 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:55,440 - root - ERROR - Error while sending message to chat_id: 6059396596, error: Forbidden: bot was blocked by the user
+2024-05-25 17:46:55,554 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:55,555 - root - ERROR - Error while sending message to chat_id: 1614419706, error: Forbidden: bot was blocked by the user
+2024-05-25 17:46:55,678 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:55,679 - root - ERROR - Error while sending message to chat_id: 333267965, error: Forbidden: bot was blocked by the user
+2024-05-25 17:46:55,774 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:46:55,775 - root - ERROR - Error while sending message to chat_id: -1002093202305, error: Forbidden: bot is not a member of the supergroup chat
+2024-05-25 17:46:55,776 - root - INFO - Last send time: 2024-05-25 17:21:59
+2024-05-25 17:46:55,776 - root - INFO - State saved to file: {'group_chat_ids': [5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305], 'last_send_time': '2024-05-25 17:21:59'}
+2024-05-25 17:46:55,778 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:47:01 UTC)" executed successfully
+2024-05-25 17:47:01,553 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:47:11 UTC)" (scheduled at 2024-05-25 14:47:01.540280+00:00)
+2024-05-25 17:47:01,941 - root - INFO - Preparing to send news...
+2024-05-25 17:47:01,942 - root - INFO - No new news found.
+2024-05-25 17:47:01,942 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:47:11 UTC)" executed successfully
+2024-05-25 17:47:05,422 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:49:15,185 - root - INFO - Bot started...
+2024-05-25 17:49:15,186 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:49:15,186 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:49:15,186 - root - INFO - Last send time: 2024-05-25 17:21:59
+2024-05-25 17:49:15,204 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:49:15,482 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:49:15,562 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:49:15,565 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:49:15,565 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:49:15,566 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:49:15,840 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:49:25,208 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:49:35 UTC)" (scheduled at 2024-05-25 14:49:25.203567+00:00)
+2024-05-25 17:49:25,500 - root - INFO - Preparing to send news...
+2024-05-25 17:49:25,501 - root - INFO - Published time: 2024-05-25 17:21:59
+2024-05-25 17:49:25,501 - root - INFO - Published time: 2024-05-25 17:05:39
+2024-05-25 17:49:25,501 - root - INFO - Published time: 2024-05-25 17:02:29
+2024-05-25 17:49:25,501 - root - INFO - Published time: 2024-05-25 16:56:20
+2024-05-25 17:49:25,502 - root - INFO - Published time: 2024-05-25 16:46:24
+2024-05-25 17:49:25,502 - root - INFO - Published time: 2024-05-25 16:43:23
+2024-05-25 17:49:25,502 - root - INFO - Published time: 2024-05-25 16:35:54
+2024-05-25 17:49:25,502 - root - INFO - Published time: 2024-05-25 16:21:03
+2024-05-25 17:49:25,502 - root - INFO - Published time: 2024-05-25 16:03:38
+2024-05-25 17:49:25,503 - root - INFO - Published time: 2024-05-25 15:53:15
+2024-05-25 17:49:25,503 - root - INFO - Published time: 2024-05-25 15:17:35
+2024-05-25 17:49:25,503 - root - INFO - Published time: 2024-05-25 15:08:13
+2024-05-25 17:49:25,503 - root - INFO - Published time: 2024-05-25 14:50:27
+2024-05-25 17:49:25,503 - root - INFO - Published time: 2024-05-25 14:45:52
+2024-05-25 17:49:25,503 - root - INFO - Published time: 2024-05-25 14:38:09
+2024-05-25 17:49:25,503 - root - INFO - Published time: 2024-05-25 14:35:05
+2024-05-25 17:49:25,504 - root - INFO - Published time: 2024-05-25 14:28:54
+2024-05-25 17:49:25,504 - root - INFO - Published time: 2024-05-25 14:23:44
+2024-05-25 17:49:25,504 - root - INFO - Published time: 2024-05-25 14:20:10
+2024-05-25 17:49:25,504 - root - INFO - Published time: 2024-05-25 14:16:20
+2024-05-25 17:49:25,504 - root - INFO - Published time: 2024-05-25 14:12:18
+2024-05-25 17:49:25,504 - root - INFO - Published time: 2024-05-25 14:10:24
+2024-05-25 17:49:25,504 - root - INFO - Published time: 2024-05-25 14:09:14
+2024-05-25 17:49:25,505 - root - INFO - Published time: 2024-05-25 14:06:43
+2024-05-25 17:49:25,505 - root - INFO - Published time: 2024-05-25 14:06:17
+2024-05-25 17:49:25,505 - root - INFO - Published time: 2024-05-25 14:05:41
+2024-05-25 17:49:25,505 - root - INFO - Published time: 2024-05-25 14:03:03
+2024-05-25 17:49:25,505 - root - INFO - Published time: 2024-05-25 13:37:55
+2024-05-25 17:49:25,506 - root - INFO - Published time: 2024-05-25 13:35:23
+2024-05-25 17:49:25,506 - root - INFO - Published time: 2024-05-25 13:33:32
+2024-05-25 17:49:25,506 - root - INFO - No new news found.
+2024-05-25 17:49:25,506 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:49:35 UTC)" executed successfully
+2024-05-25 17:49:25,977 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:49:54,840 - root - INFO - Bot started...
+2024-05-25 17:49:54,841 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:49:54,841 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:49:54,841 - root - INFO - Last send time: 2024-05-25 17:21:59
+2024-05-25 17:49:54,859 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:49:55,138 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:49:55,225 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:49:55,227 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:49:55,228 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:49:55,228 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:50:04,864 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:50:14 UTC)" (scheduled at 2024-05-25 14:50:04.858367+00:00)
+2024-05-25 17:50:05,169 - root - INFO - Preparing to send news...
+2024-05-25 17:50:05,170 - root - INFO - Published time: 2024-05-25 17:21:59
+2024-05-25 17:50:05,170 - root - INFO - Published time: 2024-05-25 17:05:39
+2024-05-25 17:50:05,171 - root - INFO - Published time: 2024-05-25 17:02:29
+2024-05-25 17:50:05,171 - root - INFO - Published time: 2024-05-25 16:56:20
+2024-05-25 17:50:05,172 - root - INFO - Published time: 2024-05-25 16:46:24
+2024-05-25 17:50:05,172 - root - INFO - Published time: 2024-05-25 16:43:23
+2024-05-25 17:50:05,172 - root - INFO - Published time: 2024-05-25 16:35:54
+2024-05-25 17:50:05,172 - root - INFO - Published time: 2024-05-25 16:21:03
+2024-05-25 17:50:05,172 - root - INFO - Published time: 2024-05-25 16:03:38
+2024-05-25 17:50:05,172 - root - INFO - Published time: 2024-05-25 15:53:15
+2024-05-25 17:50:05,172 - root - INFO - Published time: 2024-05-25 15:17:35
+2024-05-25 17:50:05,173 - root - INFO - Published time: 2024-05-25 15:08:13
+2024-05-25 17:50:05,173 - root - INFO - Published time: 2024-05-25 14:50:27
+2024-05-25 17:50:05,173 - root - INFO - Published time: 2024-05-25 14:45:52
+2024-05-25 17:50:05,173 - root - INFO - Published time: 2024-05-25 14:38:09
+2024-05-25 17:50:05,173 - root - INFO - Published time: 2024-05-25 14:35:05
+2024-05-25 17:50:05,173 - root - INFO - Published time: 2024-05-25 14:28:54
+2024-05-25 17:50:05,173 - root - INFO - Published time: 2024-05-25 14:23:44
+2024-05-25 17:50:05,173 - root - INFO - Published time: 2024-05-25 14:20:10
+2024-05-25 17:50:05,173 - root - INFO - Published time: 2024-05-25 14:16:20
+2024-05-25 17:50:05,173 - root - INFO - Published time: 2024-05-25 14:12:18
+2024-05-25 17:50:05,173 - root - INFO - Published time: 2024-05-25 14:10:24
+2024-05-25 17:50:05,174 - root - INFO - Published time: 2024-05-25 14:09:14
+2024-05-25 17:50:05,174 - root - INFO - Published time: 2024-05-25 14:06:43
+2024-05-25 17:50:05,174 - root - INFO - Published time: 2024-05-25 14:06:17
+2024-05-25 17:50:05,174 - root - INFO - Published time: 2024-05-25 14:05:41
+2024-05-25 17:50:05,174 - root - INFO - Published time: 2024-05-25 14:03:03
+2024-05-25 17:50:05,174 - root - INFO - Published time: 2024-05-25 13:37:55
+2024-05-25 17:50:05,175 - root - INFO - Published time: 2024-05-25 13:35:23
+2024-05-25 17:50:05,175 - root - INFO - Published time: 2024-05-25 13:33:32
+2024-05-25 17:50:05,175 - root - INFO - No new news found.
+2024-05-25 17:50:05,175 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:50:14 UTC)" executed successfully
+2024-05-25 17:50:05,504 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:52:39,294 - root - INFO - Bot started...
+2024-05-25 17:52:39,295 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:52:39,295 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:52:39,296 - root - INFO - Last send time: 2024-05-25 00:21:59
+2024-05-25 17:52:39,318 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:52:39,639 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:52:39,736 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:52:39,737 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:52:39,738 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:52:39,738 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:52:49,337 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:52:59 UTC)" (scheduled at 2024-05-25 14:52:49.317439+00:00)
+2024-05-25 17:52:49,631 - root - INFO - Preparing to send news...
+2024-05-25 17:52:49,632 - root - INFO - New news found: Milli tenisçi Zeynep Sönmez'in Roland Garros'taki rakibi ABD'li Emma Navarro oldu
+2024-05-25 17:52:49,632 - root - INFO - New news count: 1
+2024-05-25 17:52:49,633 - root - INFO - Sending news...
+2024-05-25 17:52:49,960 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:52:49,961 - root - ERROR - Error while sending message to chat_id: 5764872322, error: Forbidden: bot was blocked by the user
+2024-05-25 17:52:50,002 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:52:50,115 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:52:50,270 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:52:50,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:52:50,431 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:52:50,555 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:52:50,557 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:52:50,663 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:52:50,664 - root - ERROR - Error while sending message to chat_id: 7140956806, error: Forbidden: bot was blocked by the user
+2024-05-25 17:52:50,806 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:52:50,961 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:52:50,965 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:52:51,053 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:52:51,054 - root - ERROR - Error while sending message to chat_id: 6383729426, error: Forbidden: user is deactivated
+2024-05-25 17:52:51,170 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:52:51,172 - root - ERROR - Error while sending message to chat_id: 6448386224, error: Forbidden: bot was blocked by the user
+2024-05-25 17:52:51,309 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:52:51,398 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:52:51,398 - root - ERROR - Error while sending message to chat_id: -4148609082, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:52:51,683 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:52:51,879 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:52:51,880 - root - ERROR - Error while sending message to chat_id: -1002040565556, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:52:52,062 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:52:52,064 - root - ERROR - Error while sending message to chat_id: 800160972, error: Forbidden: bot was blocked by the user
+2024-05-25 17:52:52,239 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:52:52,240 - root - ERROR - Error while sending message to chat_id: 821084369, error: Forbidden: bot was blocked by the user
+2024-05-25 17:52:52,351 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:52:52,353 - root - ERROR - Error while sending message to chat_id: 1060173779, error: Forbidden: bot was blocked by the user
+2024-05-25 17:52:52,463 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:52:52,464 - root - ERROR - Error while sending message to chat_id: 863002330, error: Forbidden: bot was blocked by the user
+2024-05-25 17:52:52,637 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:52:52,769 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:52:52,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:52:52,892 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:52:52,893 - root - ERROR - Error while sending message to chat_id: -1002041421855, error: Forbidden: bot was kicked from the supergroup chat
+2024-05-25 17:52:53,059 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:52:53,059 - root - ERROR - Error while sending message to chat_id: 5866477924, error: Forbidden: bot was blocked by the user
+2024-05-25 17:56:31,470 - root - INFO - Bot started...
+2024-05-25 17:56:31,471 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:56:31,471 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:56:31,472 - root - INFO - Last send time: 2024-05-25 00:21:59
+2024-05-25 17:56:31,490 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:56:31,840 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:56:31,948 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:56:31,950 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:56:31,950 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:56:31,951 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:56:32,249 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:56:41,495 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:56:51 UTC)" (scheduled at 2024-05-25 14:56:41.489996+00:00)
+2024-05-25 17:56:41,827 - root - INFO - Preparing to send news...
+2024-05-25 17:56:41,828 - root - INFO - New news found: Galatasaray kafilesi, Konya'ya gitti
+2024-05-25 17:56:41,829 - root - INFO - New news count: 1
+2024-05-25 17:56:41,830 - root - INFO - Sending news...
+2024-05-25 17:56:42,123 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:56:42,124 - root - ERROR - Error while sending message to chat_id: 5764872322, error: Forbidden: bot was blocked by the user
+2024-05-25 17:56:42,257 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:56:42,339 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:56:42,413 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:56:42,430 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:56:42,548 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:56:42,769 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:56:42,774 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:56:42,915 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:56:42,915 - root - ERROR - Error while sending message to chat_id: 7140956806, error: Forbidden: bot was blocked by the user
+2024-05-25 17:56:43,069 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:56:43,151 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:56:43,306 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:56:43,308 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:56:43,401 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:56:43,403 - root - ERROR - Error while sending message to chat_id: 6383729426, error: Forbidden: user is deactivated
+2024-05-25 17:56:43,571 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:56:43,573 - root - ERROR - Error while sending message to chat_id: 6448386224, error: Forbidden: bot was blocked by the user
+2024-05-25 17:56:43,840 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:56:43,932 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:56:43,933 - root - ERROR - Error while sending message to chat_id: -4148609082, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:56:44,455 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:56:44,591 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:56:44,593 - root - ERROR - Error while sending message to chat_id: -1002040565556, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:56:44,690 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:56:44,691 - root - ERROR - Error while sending message to chat_id: 800160972, error: Forbidden: bot was blocked by the user
+2024-05-25 17:56:44,807 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:56:44,807 - root - ERROR - Error while sending message to chat_id: 821084369, error: Forbidden: bot was blocked by the user
+2024-05-25 17:56:44,916 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:56:44,918 - root - ERROR - Error while sending message to chat_id: 1060173779, error: Forbidden: bot was blocked by the user
+2024-05-25 17:56:45,021 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:56:45,022 - root - ERROR - Error while sending message to chat_id: 863002330, error: Forbidden: bot was blocked by the user
+2024-05-25 17:57:50,199 - root - INFO - Bot started...
+2024-05-25 17:57:50,199 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:57:50,199 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:57:50,200 - root - INFO - Last send time: 2024-05-25 00:21:59
+2024-05-25 17:57:50,218 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:57:50,512 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:57:50,598 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:57:50,601 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:57:50,602 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:57:50,603 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:57:50,860 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:00,224 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:58:10 UTC)" (scheduled at 2024-05-25 14:58:00.217013+00:00)
+2024-05-25 17:58:00,518 - root - INFO - Preparing to send news...
+2024-05-25 17:58:00,519 - root - INFO - New news found: Galatasaray kafilesi, Konya'ya gitti
+2024-05-25 17:58:00,519 - root - INFO - New news found: Milli tenisçi Zeynep Sönmez'in Roland Garros'taki rakibi ABD'li Emma Navarro oldu
+2024-05-25 17:58:00,610 - root - INFO - New news count: 30
+2024-05-25 17:58:00,610 - root - INFO - Sending news...
+2024-05-25 17:58:00,951 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:00,980 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:00,981 - root - ERROR - Error while sending message to chat_id: 5764872322, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:01,252 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:01,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:01,482 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:01,756 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:01,999 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:02,009 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:02,187 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:02,189 - root - ERROR - Error while sending message to chat_id: 7140956806, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:02,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:02,489 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:02,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:02,634 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:02,635 - root - ERROR - Error while sending message to chat_id: 6383729426, error: Forbidden: user is deactivated
+2024-05-25 17:58:02,755 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:02,756 - root - ERROR - Error while sending message to chat_id: 6448386224, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:02,932 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:03,020 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:58:03,021 - root - ERROR - Error while sending message to chat_id: -4148609082, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:58:03,340 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:03,449 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:58:03,450 - root - ERROR - Error while sending message to chat_id: -1002040565556, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:58:03,589 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:03,591 - root - ERROR - Error while sending message to chat_id: 800160972, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:03,724 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:03,725 - root - ERROR - Error while sending message to chat_id: 821084369, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:03,885 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:03,886 - root - ERROR - Error while sending message to chat_id: 1060173779, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:04,030 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:04,030 - root - ERROR - Error while sending message to chat_id: 863002330, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:04,253 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:04,393 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:04,395 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:04,496 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:04,498 - root - ERROR - Error while sending message to chat_id: -1002041421855, error: Forbidden: bot was kicked from the supergroup chat
+2024-05-25 17:58:04,627 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:04,628 - root - ERROR - Error while sending message to chat_id: 5866477924, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:04,773 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:04,775 - root - ERROR - Error while sending message to chat_id: 1711093612, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:05,030 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:37,216 - root - INFO - Bot started...
+2024-05-25 17:58:37,216 - root - INFO - Feed URL: https://www.aa.com.tr/tr/rss/default?cat=guncel
+2024-05-25 17:58:37,217 - root - INFO - Group chat IDs: {5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305}
+2024-05-25 17:58:37,217 - root - INFO - Last send time: 2024-05-25 12:21:59
+2024-05-25 17:58:37,235 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-25 17:58:37,506 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getMe "HTTP/1.1 200 OK"
+2024-05-25 17:58:37,598 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/deleteWebhook "HTTP/1.1 200 OK"
+2024-05-25 17:58:37,599 - apscheduler.scheduler - INFO - Added job "send_news" to job store "default"
+2024-05-25 17:58:37,600 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-25 17:58:37,600 - telegram.ext.Application - INFO - Application started
+2024-05-25 17:58:37,872 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:39,439 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:47,241 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:58:57 UTC)" (scheduled at 2024-05-25 14:58:47.234677+00:00)
+2024-05-25 17:58:47,572 - root - INFO - Preparing to send news...
+2024-05-25 17:58:47,574 - root - INFO - New news count: 30
+2024-05-25 17:58:47,574 - root - INFO - Sending news...
+2024-05-25 17:58:47,894 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:47,896 - root - ERROR - Error while sending message to chat_id: 5764872322, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:48,072 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:48,207 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:48,212 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:48,401 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:48,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:48,581 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:48,757 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:48,758 - root - ERROR - Error while sending message to chat_id: 7140956806, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:48,982 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:49,153 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:49,169 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:49,265 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:49,266 - root - ERROR - Error while sending message to chat_id: 6383729426, error: Forbidden: user is deactivated
+2024-05-25 17:58:49,472 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:49,474 - root - ERROR - Error while sending message to chat_id: 6448386224, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:49,689 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:49,797 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:58:49,798 - root - ERROR - Error while sending message to chat_id: -4148609082, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:58:50,105 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:50,220 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 400 Bad Request"
+2024-05-25 17:58:50,220 - root - ERROR - Error while sending message to chat_id: -1002040565556, error: Not enough rights to manage pinned messages in the chat
+2024-05-25 17:58:50,371 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:50,371 - root - ERROR - Error while sending message to chat_id: 800160972, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:50,535 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:50,536 - root - ERROR - Error while sending message to chat_id: 821084369, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:50,716 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:50,717 - root - ERROR - Error while sending message to chat_id: 1060173779, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:51,059 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:51,060 - root - ERROR - Error while sending message to chat_id: 863002330, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:51,255 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:51,401 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:51,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:51,510 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:51,511 - root - ERROR - Error while sending message to chat_id: -1002041421855, error: Forbidden: bot was kicked from the supergroup chat
+2024-05-25 17:58:51,694 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:51,695 - root - ERROR - Error while sending message to chat_id: 5866477924, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:51,941 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:51,942 - root - ERROR - Error while sending message to chat_id: 1711093612, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:52,149 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:52,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/pinChatMessage "HTTP/1.1 200 OK"
+2024-05-25 17:58:52,294 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:58:52,432 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:52,433 - root - ERROR - Error while sending message to chat_id: 6059396596, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:52,556 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:52,556 - root - ERROR - Error while sending message to chat_id: 1614419706, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:52,685 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:52,686 - root - ERROR - Error while sending message to chat_id: 333267965, error: Forbidden: bot was blocked by the user
+2024-05-25 17:58:52,885 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/sendMessage "HTTP/1.1 403 Forbidden"
+2024-05-25 17:58:52,886 - root - ERROR - Error while sending message to chat_id: -1002093202305, error: Forbidden: bot is not a member of the supergroup chat
+2024-05-25 17:58:52,886 - root - INFO - Last send time: 2024-05-25 17:28:51
+2024-05-25 17:58:52,887 - root - INFO - State saved to file: {'group_chat_ids': [5764872322, 6953089795, 5657455750, 7140956806, 1152761353, 6383729426, 6448386224, -4148609082, -1002040565556, 800160972, 821084369, 1060173779, 863002330, 5884054366, -1002041421855, 5866477924, 1711093612, 6911686765, 6059396596, 1614419706, 333267965, -1002093202305], 'last_send_time': '2024-05-25 17:28:51'}
+2024-05-25 17:58:52,888 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:58:57 UTC)" executed successfully
+2024-05-25 17:58:57,243 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:59:07 UTC)" (scheduled at 2024-05-25 14:58:57.234677+00:00)
+2024-05-25 17:58:57,581 - root - INFO - Preparing to send news...
+2024-05-25 17:58:57,582 - root - INFO - No new news found.
+2024-05-25 17:58:57,582 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:59:07 UTC)" executed successfully
+2024-05-25 17:59:02,403 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"
+2024-05-25 17:59:07,254 - apscheduler.executors.default - INFO - Running job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:59:17 UTC)" (scheduled at 2024-05-25 14:59:07.234677+00:00)
+2024-05-25 17:59:07,496 - root - INFO - Preparing to send news...
+2024-05-25 17:59:07,497 - root - INFO - No new news found.
+2024-05-25 17:59:07,497 - apscheduler.executors.default - INFO - Job "send_news (trigger: interval[0:00:10], next run at: 2024-05-25 14:59:17 UTC)" executed successfully
+2024-05-25 17:59:12,576 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6721686696:AAHvMgQNmbcEvry2dsSLHxtUQR2eTqLbRtc/getUpdates "HTTP/1.1 200 OK"

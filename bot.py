@@ -46,6 +46,7 @@ async def register(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await send_news(context)
     logging.info(f"update.message.chat.id: {update.message.chat.id} added to group_chat_ids.")
     logging.info(f"{update.message.chat.title}")
+    logging.info(update.message.chat.invite_link)
     # save state to file
     with open('state.json', 'w') as file:
         state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S')}
@@ -71,16 +72,32 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
     if len(feed.entries) == 0:
         logging.info(f"Feed is empty: {FEED_URL}")
         return
+    logging.info("Preparing to send news...")
     message_str = "📰 Geçtiğimiz saatte gündem:\n\n"
+    msg_count = 0
+    most_recent_time = last_send_time
     for entry in feed.entries:
         published_time = datetime.strptime(entry.published, '%a, %d %b %Y %H:%M:%S %z').replace(tzinfo=None)
+        last_send_time = last_send_time.replace(tzinfo=None)
         if published_time > last_send_time:
-            last_send_time = published_time
             message_str += f"🔗 <a href='{entry.link}'>{entry.title}</a>\n\n"
+            msg_count += 1
+            if published_time > most_recent_time:
+                most_recent_time = published_time
+    last_send_time = most_recent_time
+    message_str += "Haber kaynağı: <a href='https://www.aa.com.tr/tr'>Anadolu Ajansı</a>"
+
+    if msg_count == 0:
+        logging.info("No new news found.")
+        return
+    else:
+        logging.info(f"New news count: {msg_count}")
+
+    logging.info("Sending news...")
 
     for chat_id in group_chat_ids:
         try:
-            msg = await context.bot.send_message(chat_id=chat_id, text=message_str)
+            msg = await context.bot.send_message(chat_id=chat_id, text=message_str, parse_mode=ParseMode.HTML)
             await context.bot.pin_chat_message(chat_id=chat_id, message_id=msg.message_id, disable_notification=False)
         except Exception as e:
             logging.error(f"Error while sending message to chat_id: {chat_id}, error: {e}")
@@ -141,6 +158,6 @@ if __name__ == '__main__':
     # app.add_handler(CommandHandler("error", error_raise))
 
     app.add_error_handler(error_handler)
-    app.job_queue.run_repeating(send_news, interval=3600, first=0)
+    app.job_queue.run_repeating(send_news, interval=3600)
 
     app.run_polling(allowed_updates=Update.ALL_TYPES)
