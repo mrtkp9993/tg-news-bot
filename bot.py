@@ -2,7 +2,6 @@ import html
 import json
 import logging
 import os
-import time
 import traceback
 from datetime import datetime
 
@@ -25,7 +24,7 @@ if os.path.exists('state.json'):
     with open('state.json', 'r') as file:
         state = json.load(file)
         group_chat_ids = set(state['group_chat_ids'])
-        last_send_time =  datetime.strptime(state['last_send_time'], '%Y-%m-%d %H:%M:%S')
+        last_send_time = datetime.strptime(state['last_send_time'], '%Y-%m-%d %H:%M:%S')
 else:
     with open('state.json', 'w') as file:
         state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S')}
@@ -36,8 +35,10 @@ logging.info(f"Feed URL: {FEED_URL}")
 logging.info(f"Group chat IDs: {group_chat_ids}")
 logging.info(f"Last send time: {last_send_time}")
 
+
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(f'Ben Haberci. Güncel haberleri almak için /haberver komutunu kullanın.')
+
 
 async def register(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     group_chat_ids.add(update.message.chat.id)
@@ -50,6 +51,7 @@ async def register(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S')}
         json.dump(state, file)
         logging.info(f"State saved to file: {state}")
+
 
 async def unregister(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     group_chat_ids.remove(update.message.chat.id)
@@ -69,19 +71,20 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
     if len(feed.entries) == 0:
         logging.info(f"Feed is empty: {FEED_URL}")
         return
+    message_str = "📰 Geçtiğimiz saatte gündem:\n\n"
     for entry in feed.entries:
         published_time = datetime.strptime(entry.published, '%a, %d %b %Y %H:%M:%S %z').replace(tzinfo=None)
         if published_time > last_send_time:
             last_send_time = published_time
-            for chat_id in group_chat_ids:
-                try:
-                    msg = await context.bot.send_message(chat_id=chat_id, text=entry['summary'] + "\n\n" + entry['link'])
-                    await context.bot.pin_chat_message(chat_id=chat_id, message_id=msg.message_id, disable_notification=False)
-                except Exception as e:
-                    logging.error(f"Error while sending message to chat_id: {chat_id}, error: {e}")
-                    continue
-        else:
-            break
+            message_str += f"🔗 <a href='{entry.link}'>{entry.title}</a>\n\n"
+
+    for chat_id in group_chat_ids:
+        try:
+            msg = await context.bot.send_message(chat_id=chat_id, text=message_str)
+            await context.bot.pin_chat_message(chat_id=chat_id, message_id=msg.message_id, disable_notification=False)
+        except Exception as e:
+            logging.error(f"Error while sending message to chat_id: {chat_id}, error: {e}")
+            continue
 
     logging.info(f"Last send time: {last_send_time}")
     # save state to file
@@ -138,6 +141,6 @@ if __name__ == '__main__':
     # app.add_handler(CommandHandler("error", error_raise))
 
     app.add_error_handler(error_handler)
-    app.job_queue.run_repeating(send_news, interval=60, first=0)
+    app.job_queue.run_repeating(send_news, interval=3600, first=0)
 
     app.run_polling(allowed_updates=Update.ALL_TYPES)
