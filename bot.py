@@ -1,3 +1,4 @@
+import asyncio
 import html
 import json
 import logging
@@ -9,6 +10,8 @@ import feedparser
 from telegram import Update
 from telegram.constants import ParseMode
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
+from telegram.ext import filters
+import requests
 
 fh = logging.FileHandler('bot.log')
 fh.setLevel(logging.INFO)
@@ -41,9 +44,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 async def register(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    if update.message.chat.id in group_chat_ids:
+        await update.message.reply_text("Chat zaten kayıtlı.")
+        return
     group_chat_ids.add(update.message.chat.id)
     await update.message.reply_text(f'Başarıyla kaydedildi. Yeni haberler geldikçe otomatik olarak gönderilecektir.')
-    await send_news(context)
+    # await send_news(context)
     logging.info(f"update.message.chat.id: {update.message.chat.id} added to group_chat_ids.")
     logging.info(f"{update.message.chat.title}")
     logging.info(update.message.chat.invite_link)
@@ -56,7 +62,7 @@ async def register(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def unregister(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     group_chat_ids.remove(update.message.chat.id)
-    await update.message.reply_text(f'Başarıyla silindi.')
+    # await update.message.reply_text(f'Haberci ile burada tÄ±kÄ±lÄ±p kaldÄ±nÄ±z.')
     logging.info(f"update.message.chat.id: {update.message.chat.id} removed from group_chat_ids.")
     logging.info(f"{update.message.chat.title}")
     # save state to file
@@ -64,6 +70,7 @@ async def unregister(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
         state = {'group_chat_ids': list(group_chat_ids), 'last_send_time': last_send_time.strftime('%Y-%m-%d %H:%M:%S')}
         json.dump(state, file)
         logging.info(f"State saved to file: {state}")
+    await update.message.reply_text(f'Chat başarıyla silindi. Haberler artık gönderilmeyecek.')
 
 
 async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -97,7 +104,7 @@ async def send_news(context: ContextTypes.DEFAULT_TYPE) -> None:
 
     for chat_id in group_chat_ids:
         try:
-            msg = await context.bot.send_message(chat_id=chat_id, text=message_str, parse_mode=ParseMode.HTML)
+            msg = await context.bot.send_message(chat_id=chat_id, text=message_str, parse_mode=ParseMode.HTML, disable_web_page_preview=True)
             await context.bot.pin_chat_message(chat_id=chat_id, message_id=msg.message_id, disable_notification=False)
         except Exception as e:
             logging.error(f"Error while sending message to chat_id: {chat_id}, error: {e}")
@@ -122,6 +129,19 @@ async def feedback_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -
 
 # async def error_raise(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
 #     await context.bot.wrong_method_name()
+
+async def send_notification(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
+    logging.info("Notification command received.")
+    logging.info(f"update.message.chat.id: {update.message.chat.id}")
+    if update.message.chat.id == int(os.environ['DEV_CHAT_ID']):
+        txt = update.message.text.replace("/bildirim", "")
+        for chat_id in group_chat_ids:
+            try:
+                await context.bot.send_message(chat_id=chat_id, text=txt)
+                await asyncio.sleep(1)
+            except Exception as e:
+                logging.error(f"Notification failed for chat ID: {chat_id}")
+                continue
 
 async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
     logging.error("Exception while handling an update:", exc_info=context.error)
@@ -149,12 +169,19 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> N
     )
 
 if __name__ == '__main__':
+    resp = requests.get(f"https://api.telegram.org/bot{os.environ['NEWS_BOT_TOKEN']}/getUpdates?offset=-1")
+    if resp.status_code == 200:
+        logging.info("Bot messages reset.")
+    else:
+        logging.error("Bot messages reset failed.")
+
     app = ApplicationBuilder().token(os.environ["NEWS_BOT_TOKEN"]).build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("haberver", register))
     app.add_handler(CommandHandler("haberverme", unregister))
     app.add_handler(CommandHandler("feedback", feedback_handler))
+    app.add_handler(CommandHandler("bildirim", send_notification))
     # app.add_handler(CommandHandler("error", error_raise))
 
     app.add_error_handler(error_handler)
